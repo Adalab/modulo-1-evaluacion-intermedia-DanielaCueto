@@ -7,8 +7,9 @@ body {
   color: #4a4a4a;
   width: 100vw;
   text-align: center;
-  top: 0;
   position: fixed;
+  top: 0;
+  background-color: #fff;
   z-index: 1;
 }
 .ul {
@@ -35,4 +36,8 @@ body {
   background-color: #3cdbc0;
   width: 100vw;
   height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
