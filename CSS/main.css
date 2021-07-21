@@ -40,10 +40,11 @@ body {
 }
 
 .container {
+  box-sizing: border-box;
   background-color: #3cdbc0;
   width: 100vw;
   height: 100vh;
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
