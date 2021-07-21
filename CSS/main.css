@@ -1,0 +1,38 @@
+body {
+  background-color: #fff;
+}
+
+.header {
+  box-sizing: border-box;
+  color: #4a4a4a;
+  width: 100vw;
+  text-align: center;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  list-style: none;
+}
+.list {
+  text-transform: uppercase;
+}
+
+.first {
+  margin-right: 10px; /*crear una root*/
+}
+.second {
+  margin-left: 10px; /*crear una root*/
+}
+
+.container {
+  background-color: #3cdbc0;
+  width: 100vw;
+  height: 100vh;
+}
