@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  font-family: "Rubik", sans-serif;
 }
 
 .header {
@@ -11,6 +12,7 @@ body {
   top: 0;
   background-color: #fff;
   z-index: 1;
+  padding-top: 10px;
 }
 .ul {
   display: flex;
@@ -40,4 +42,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px;
+  }
+  .paragraph {
+    font-size: 40px;
+  }
 }
