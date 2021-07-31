@@ -61,7 +61,7 @@ body {
   align-items: center;
   text-transform: capitalize;
 }
-/* <!--terminar esta parte, en el navegador esta en fila y tiene que estar en columnas --> */
+
 .principal-title {
   color: var(--withe-color);
   font-size: 30px;
